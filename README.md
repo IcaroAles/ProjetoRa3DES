@@ -40,17 +40,11 @@ Diagrama de Classes
 O diagrama de classes está disponibilizado no relatório entregue no Canvas.
 
 Reflexão sobre as maiores dificuldades
-Durante o desenvolvimento do projeto, as principais dificuldades encontradas foram:
+Durante o desenvolvimento do projeto, a principal dificuldade foi entender como configurar corretamente o JPA com o EclipseLink, especialmente o persistence.xml, para garantir que as entidades fossem mapeadas e o banco fosse gerado corretamente.
 
-Configuração inicial do JPA com EclipseLink: foi necessário compreender corretamente como estruturar o persistence.xml, garantindo o mapeamento das entidades e a correta criação das tabelas no banco de dados.
+Outra parte que exigiu atenção foi criar os DAOs e garantir que o CRUD funcionasse bem para cada entidade. Além disso, configurar os relacionamentos entre as tabelas (como no caso do Emprestimo) foi um bom aprendizado.
 
-Estruturação dos DAOs: outro desafio foi implementar um padrão consistente para os DAOs, que permitisse realizar as operações de CRUD de forma padronizada e reutilizável.
-
-Relacionamentos entre entidades: configurar corretamente os relacionamentos @ManyToOne, especialmente na entidade Emprestimo, exigiu atenção para garantir que as chaves estrangeiras fossem criadas e populadas corretamente.
-
-Teste completo: validar as operações de CRUD para todas as entidades, garantindo que o fluxo de persistência e recuperação de dados estivesse funcional.
-
-No final, a execução completa do projeto no console confirmou que todas as funcionalidades foram implementadas com sucesso.
+No geral, o projeto ajudou muito a fixar o conceito de ORM e como ele facilita o trabalho com banco de dados no Java.
 
 Como executar
 Clone o repositório do GitHub.
