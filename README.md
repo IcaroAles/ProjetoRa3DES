@@ -1,5 +1,8 @@
 Projeto Biblioteca — Avaliação Somativa RA3
 Descrição
+
+EQUIPE:Icaro Nery, Joao V. Delrey, Gustavo Gaspar.
+
 Este projeto consiste na implementação de um sistema de gerenciamento básico de uma biblioteca, com foco no mapeamento objeto-relacional (ORM), utilizando Java Persistence API (JPA) com o provedor EclipseLink, conforme a especificação da Avaliação Somativa RA3.
 
 O projeto implementa sete entidades persistentes, cada uma com seu respectivo CRUD (Create, Read, Update, Delete).
